@@ -9,11 +9,11 @@ This repository contains python implementations for data structures
 3. Stack
    Stack is a linear data structure where items are added and removed in LIFO order. i.e. Last In First Out. The items are removed only fromm the top of the Satck
    In Python, Stack can be implemented using arrays (List) or LinkedList (queue or LifoQueue)
-   a) Stack using List:
+   1. Stack using List:
       List requires potential memory reallocation as the stack grows in future
-   b) Stack using dequeue:
+   2. Stack using dequeue:
       Deque is doubly-linked list based ds. Hence does all the operations in O(1) time howmuch ever the stack grows in size.
-   c) Stack using LifoQueue:
+   3. Stack using LifoQueue:
       LifoQueue is also doubly-linked based ds. It is thread-safe. So the best to use in multi-threaded environment, but compromising the cost of a little bit processing over-head.
    
 
