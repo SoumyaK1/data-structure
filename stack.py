@@ -39,6 +39,10 @@ myStack.put_nowait() ## Use this if the stack is created with a predefined size.
 
 myStack.get_nowait() ## USe this instaed of get() becuase get_nowait() throws error message if the stack is Empty
 
+mystack.empty() ## check if the stack is empty
+myStack.full() ## check if the stack is full()
+print(myStack.queue) ## Print the contnts of the stack
+
 
 
 
