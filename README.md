@@ -1,4 +1,5 @@
-# data-structure
+Data-structure and Algorithms
+------------------------------
 This repository contains python implementations for data structures
 1. Dynamic Array
    The array of itmes which can grow and shrink. Here, the dynamic array is implemented using static array.
