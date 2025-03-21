@@ -16,6 +16,7 @@ This repository contains python implementations for data structures
       Deque is doubly-linked list based ds. Hence does all the operations in O(1) time howmuch ever the stack grows in size.
    3. Stack using LifoQueue:
       LifoQueue is also doubly-linked based ds. It is thread-safe. So the best to use in multi-threaded environment, but compromising the cost of a little bit processing over-head.
+   4. 
    
 
    
